@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Prepzo",
+    "slug": "prepzo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "userInterfaceStyle": "light",
+
+    "android": {
+      "package": "com.flys.prepzo",
+      "permissions": [
+        "POST_NOTIFICATIONS"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "versionCode": 1
+    },
+
+    "ios": {
+      "bundleIdentifier": "com.flys.prepzo",
+      "supportsTablet": true
+    },
+
+    "web": {
+      "favicon": "./src/assets/images/favicon.png"
+    },
+
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./src/assets/images/splash.png",
+          "backgroundColor": "#ffffff",
+          "imageWidth": 200
+        }
+      ]
+    ],
+
+    "extra": {
+      "eas": {
+        "projectId": "043a0866-9cd5-4310-b8e4-36d506220ff8"
+      }
+    }
+  }
+}
